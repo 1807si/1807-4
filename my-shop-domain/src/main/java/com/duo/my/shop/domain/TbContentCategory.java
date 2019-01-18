@@ -10,12 +10,7 @@ public class TbContentCategory {
     private Long id;
     private Long parentId;
     private String name;
-    private int status;
-    private String sortOrder;
     @JsonProperty("isParent")
     private boolean isParent;
-    private Date created;
     private Date updated;
-
-
 }
